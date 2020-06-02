@@ -1,6 +1,6 @@
 {
   "name": "leeddhh",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "leeddhh CLI",
   "main": ".src/cli.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "email": "niche3600@gmail.com"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=8"
   },
   "files": [
     "src"
