@@ -4,7 +4,7 @@ const React = require("react");
 const SelectInput = require('ink-select-input').default;
 const open = require('open');
 
-const { userItems } = require('./const');
+const { introduce, userItems } = require("./const");
 
 const menuItems = [
   {
@@ -49,7 +49,7 @@ module.exports = () => (
 
     <Box flexDirection="column">
       <Box marginBottom={1}>
-        <Text>I’m a Application developer.</Text>
+        <Text>{introduce}</Text>
       </Box>
       <SelectInput items={items} onSelect={handleSelect} />
     </Box>

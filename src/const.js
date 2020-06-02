@@ -1,7 +1,13 @@
 'use strict'
 
-// userName use for `npx userName`
+// userName use for CLI Helper
 exports.userName = 'leeddhh'
+
+/*
+  introduce yourself :)
+  newline use `\n`
+*/
+exports.introduce = 'I’m a Application developer.\nand my handle name is kamo :)'
 
 /*
   please write like this example
@@ -35,6 +41,10 @@ exports.userItems = [
   {
     label: 'Contact',
     url: 'https://leeddhh.github.io/about'
+  },
+  {
+    label: 'My Favorite food',
+    url: 'https://www.ohsho.co.jp'
   }
 ]
 
