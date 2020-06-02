@@ -1,0 +1,47 @@
+{
+  "name": "leeddhh",
+  "version": "1.0.0",
+  "description": "leeddhh CLI",
+  "main": ".src/cli.js",
+  "scripts": {
+    "build": "node src/cli.js",
+    "dev": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeDDHH/leeddhh.git"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "leeddhh"
+  ],
+  "author": {
+    "name": "DongHeon Lee",
+    "email": "niche3600@gmail.com"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "src"
+  ],
+  "bin": {
+    "leeddhh": "./src/cli.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leeddhh/leeddhh/issues"
+  },
+  "homepage": "https://github.com/leeddhh/leeddhh#readme",
+  "dependencies": {
+    "import-jsx": "4.0.0",
+    "ink": "2.7.1",
+    "ink-select-input": "3.1.2",
+    "meow": "7.0.1",
+    "open": "7.0.4",
+    "react": "16.13.1",
+    "term-img": "5.0.0",
+    "terminal-image": "1.0.1"
+  }
+}
